@@ -12,7 +12,7 @@ class BaseClass{
 
         }
         
-        this.image = loadImage("image/base.png");
+        this.image = loadImage("base.png");
         this.body = Bodies.rectangle(x,y,width,height);
         this.width = width;
         this.height = height;

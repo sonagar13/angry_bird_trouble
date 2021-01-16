@@ -13,7 +13,7 @@ var bird;
 var backgroundImg
 function preload(){
 
-  backgroundImg = loadImage("image/bg.png")
+  backgroundImg = loadImage("bg.png")
 }
 
 function setup(){
