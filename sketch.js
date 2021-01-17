@@ -10,6 +10,8 @@ var box5;
 var pig1,pig2;
 var log1,log2,log3,log4;
 var bird;
+
+var platform;
 var backgroundImg
 function preload(){
 
@@ -23,6 +25,8 @@ function setup(){
     engine = Engine.create();
     world = engine.world;
     ground  = new Ground(width/2,height,width,20);
+
+    platform = new Ground(200,300,150,340);
     box1 = new Box(700,320,70,70);
 
     
@@ -81,6 +85,7 @@ function draw() {
   log3.display();
   log4.display();
   bird.display();
+  platform.display();
   /*
   box2.display();
   
